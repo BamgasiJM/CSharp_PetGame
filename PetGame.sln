@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetGame", "PetGame.csproj", "{26492DA8-9F56-49E4-1235-F4927F660576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26492DA8-9F56-49E4-1235-F4927F660576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26492DA8-9F56-49E4-1235-F4927F660576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26492DA8-9F56-49E4-1235-F4927F660576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26492DA8-9F56-49E4-1235-F4927F660576}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8074311E-9619-43F1-BE3C-1A7B5B93B013}
+	EndGlobalSection
+EndGlobal
