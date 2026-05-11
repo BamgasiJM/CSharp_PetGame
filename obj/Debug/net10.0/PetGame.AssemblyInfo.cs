@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bbca6fdd9f600421fe82036a07a786315151f8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

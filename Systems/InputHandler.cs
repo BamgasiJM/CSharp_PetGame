@@ -2,12 +2,14 @@
 // File Tree
 // PetGame/
 // └ Systems/
-//    └ InputSystem.cs
+//    └ InputHandler.cs
 // ======================================================
+
+using PetGame.Core;
 
 namespace PetGame.Systems;
 
-public static class InputSystem
+public static class InputHandler
 {
   public static ActionType GetAction()
   {
@@ -26,17 +28,16 @@ public static class InputSystem
 
       string? input = Console.ReadLine();
 
-      // nullable 방어
       if (string.IsNullOrWhiteSpace(input))
       {
         continue;
       }
 
-      bool success = int.TryParse(input, out int number);
+      bool success = int.TryParse(input, out int result);
 
-      if (success && Enum.IsDefined(typeof(ActionType), number))
+      if (success && Enum.IsDefined(typeof(ActionType), result))
       {
-        return (ActionType)number;
+        return (ActionType)result;
       }
 
       Console.WriteLine("잘못된 입력입니다.");

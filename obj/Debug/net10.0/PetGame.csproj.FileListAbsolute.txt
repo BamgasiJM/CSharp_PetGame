@@ -12,3 +12,4 @@
 /Users/jaikim/Documents/CodingStudy/CSharp-Practice/PetGame/obj/Debug/net10.0/PetGame.pdb
 /Users/jaikim/Documents/CodingStudy/CSharp-Practice/PetGame/obj/Debug/net10.0/PetGame.genruntimeconfig.cache
 /Users/jaikim/Documents/CodingStudy/CSharp-Practice/PetGame/obj/Debug/net10.0/ref/PetGame.dll
+/Users/jaikim/Documents/CodingStudy/CSharp-Practice/PetGame/obj/Debug/net10.0/PetGame.sourcelink.json

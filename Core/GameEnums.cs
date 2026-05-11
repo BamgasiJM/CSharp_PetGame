@@ -1,14 +1,14 @@
 // ======================================================
 // File Tree
 // PetGame/
-// └ Systems/
-//    └ ActionType.cs
+// └ Core/
+//    └ GameEnums.cs
 // ======================================================
 
-namespace PetGame.Systems;
+namespace PetGame.Core;
 
-// enum은 행동 종류를 안전하게 관리할 수 있다.
-// 문자열 비교보다 훨씬 안정적이다.
+// enum은 문자열보다 안전하고 유지보수가 쉽다.
+// 게임 전체에서 공유되는 행동 타입 정의.
 public enum ActionType
 {
   Feed = 1,
